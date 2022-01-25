@@ -1,13 +1,44 @@
+---
+description: https://github.com/haydendaly/experiments/blob/main/patterns/cyclic_sort.ipynb
+---
+
 # Cyclic Sort
 
 ## What is a cyclic sort?
 
-The cyclic sort pattern describes an interesting approach to deal with problems involving arrays containing numbers in a given range. For example, take the following problem:
+The cyclic sort pattern describes an interesting approach to deal with problems involving arrays containing numbers in a given range.
 
-* You are given an unsorted array containing numbers taken from the range 1 to ‘n’. The array can have duplicates, which means that some numbers will be missing. Find all the missing numbers.
+## Example Problem: Missing Number
 
-To efficiently solve this problem, we can use the fact that the input array contains numbers in the range of 1 to ‘n’. For example, to efficiently sort the array, we can try placing each number in its correct place, i.e., placing ‘1’ at index ‘0’, placing ‘2’ at index ‘1’, and so on. Once we are done with the sorting, we can iterate the array to find all indices that are missing the correct numbers. These will be our required numbers.
+_Original Problem:_ [_LeetCode #268_](https://leetcode.com/problems/missing-number/)__
 
-### Requirements
+Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
 
-* Has a fixed range (i.e. 1 to n)
+### Starter Code
+
+```python
+def find_missing_number(nums):
+    """Takes array of integers nums in range [0, n], returns missing number"""
+    pass
+    
+# Test Case 1
+nums, ans = [8, 3, 5, 2, 4, 6, 0, 1], 7
+assert find_missing_numbers(nums) == ans
+```
+
+### Solution
+
+```python
+def find_missing_number(nums):
+    i = 0
+    while i < len(nums):
+        target = nums[i]
+        if nums[i] < len(nums) and nums[i] != nums[target]:
+            nums[i], nums[target] = nums[target], nums[i]
+        else:
+            i += 1
+    for i, num in enumerate(nums):
+        if i != num:
+            return i
+    return -1 if len(nums) in nums else len(nums)
+```

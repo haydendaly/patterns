@@ -12,7 +12,6 @@ def num_islands(matrix):
     neighbors = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
     def bfs(i, j):
-        # improves performance 4x if you check bounds before each recursive call
         if i < m and i >= 0 and j < n and j >= 0 and matrix[i][j] == "1":
             matrix[i][j] = "0"
             for di, dj in neighbors:

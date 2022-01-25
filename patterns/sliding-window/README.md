@@ -1,3 +1,8 @@
+---
+description: >-
+  https://github.com/haydendaly/experiments/blob/main/patterns/sliding_windows.ipynb
+---
+
 # Sliding Window
 
 ## What is the sliding window pattern?

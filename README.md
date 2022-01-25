@@ -37,6 +37,8 @@ I plan on dedicating a chapter to each pattern where I will:
 
 The problems will come from programming problem sites (like [LeetCode](https://leetcode.com), [Project Euler](https://projecteuler.net), and [Kattis](https://open.kattis.com)) and my personal interview experiences. I'll also touch on some behavioral and resume advice briefly.
 
+All provided code/solutions are written in Python3 but the strategies presented are language-agnostic.
+
 ### Alternatives
 
 If you're looking for more information on interview processes, check out the [Tech Interview Handbook](https://techinterviewhandbook.org).
@@ -49,7 +51,7 @@ Another great resource is [Grokking the Coding Interview](https://www.educative.
 
 tl;dr: You've solved, or are able to solve, [Two Sum](https://leetcode.com/problems/two-sum/) on LeetCode.
 
-I expect you have familiarity with general algorithms and have taken the equivalent of a data structures and algorithms course.
+I expect you have familiarity with general algorithms and have taken the equivalent of a data structures and algorithms course. This book is not introductory in nature--the goal is to make hard problems approachable for interviews.
 
 ## Who wrote this?
 

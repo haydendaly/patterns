@@ -10,6 +10,7 @@
 * [Sliding Window](patterns/sliding-window/README.md)
   * [Variations](patterns/sliding-window/variations.md)
   * [Harder Problems](patterns/sliding-window/harder-problems.md)
+* [Heaps](patterns/heaps.md)
 * [Intervals](patterns/intervals/README.md)
   * [Variations](patterns/intervals/variations.md)
   * [Harder Problems](patterns/intervals/harder-problems.md)
@@ -24,6 +25,11 @@
   * [Harder Problems](patterns/topological-sort/harder-problems.md)
 * [BFS / DFS](patterns/bfs-dfs.md)
 * [Cyclic Sort](patterns/cyclic-sort.md)
+* [XOR](patterns/xor.md)
+* [Binary Search](patterns/binary-search/README.md)
+  * [Variations](patterns/binary-search/variations.md)
+  * [Harder Problems](patterns/binary-search/harder-problems.md)
+* [Linked List Reversal](patterns/linked-list-reversal.md)
 
 ## Advanced Patterns
 
