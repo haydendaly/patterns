@@ -7,7 +7,7 @@ A clever data structure.
 William Fiset explains it really well on YouTube.
 
 {% embed url="https://www.youtube.com/watch?v=ibjEGG7ylHk" %}
-WilliamFiset: Union Find Introduction
+William Fiset: Union Find Introduction
 {% endembed %}
 
 ### When to use?
@@ -22,11 +22,24 @@ Given an array of integers `nums` containing `n + 1` integers where each integer
 
 There is only one repeated number in `nums`, return this repeated number. Your solution must use constant extra space.
 
-### Starter
+#### Starter Function
 
 ```python
 def find_duplicate(nums):
-    # return the duplicate value
+    """Takes in an array nums, returns duplicate number"""
+    pass
+```
+
+#### Test Cases
+
+```python
+nums = [1, 3, 4, 2, 2]
+result = 2
+assert find_duplicates(nums) == result
+
+nums = [3, 1, 3, 4, 2]
+result = 3
+assert find_duplicates(nums) == result
 ```
 
 ### Solution
