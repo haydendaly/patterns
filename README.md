@@ -20,7 +20,7 @@ This algorithm consists of two parts:
 
 Once you memorize a few patterns like this one, you are able to restructure them together to solve any possible position on the cube. You even start to recognize new patterns and form algorithms intuitively.
 
-A large majority of programming problems consist of applying data structures with a specific set of access patterns for different problems. Once we break down problems into sub-problems, they just become a combination of patterns/algorithms to get the solved state.
+A large majority of programming problems consist of applying data structures with a specific set of access patterns for different problems. Once we break down problems into sub-problems, they just become a combination of patterns/algorithms to achieve the solved state.
 
 This course aims to provide programming problem mastery through pattern recognition and algorithm application.
 
@@ -29,11 +29,11 @@ This course aims to provide programming problem mastery through pattern recognit
 I plan on dedicating a chapter to each pattern where I will:
 
 * Introduce the pattern
-* Walkthrough simple example problem
-* Explain variations and provide walkthroughs for each
-* Go through a few harder problems
-* Provide list of problems that utilize the pattern
-* Further advanced resources
+  * Walkthrough simple example problem
+* Explain variations
+  * Walkthrough examples for variations
+* Walkthrough harder problems
+* Provide further resources and challenge problems
 
 The problems will come from programming problem sites (like [LeetCode](https://leetcode.com), [Project Euler](https://projecteuler.net), and [Kattis](https://open.kattis.com)) and my personal interview experiences. I'll also touch on some behavioral and resume advice briefly.
 
@@ -43,7 +43,7 @@ If you're looking for more information on interview processes, check out the [Te
 
 If you're looking for curated lists of problems by patterns, check out [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/).
 
-Another great resources is [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview) but it will cost you $15/month.
+Another great resource is [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview) but it will cost you $15/month.
 
 ## Who is this for?
 
