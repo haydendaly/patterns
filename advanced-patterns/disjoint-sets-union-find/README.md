@@ -21,7 +21,7 @@ If you have a set of N elements partitioned into further subsets, and you have t
 
 ## Example Problem: Find the Duplicate Number
 
-_Original Problem:_ [_LeetCode #287 (medium)_](https://leetcode.com/problems/find-the-duplicate-number/)
+_Original Problem:_ [_LeetCode #287 (Medium)_](https://leetcode.com/problems/find-the-duplicate-number/)
 
 Given an array of integers `nums` containing `n + 1` integers where each integer is in the range `[1, n]` inclusive.
 
@@ -54,7 +54,7 @@ def find_duplicate(nums):
     return -1
 ```
 
-The solution is linear runtime and constant space. This solution works by using an inputted data structure as a disjoint set. Each value of `nums` maps to its index by the function `def idx(num): num - 1` . An example mapping is the value `9` to the index `8`. This direct mapping takes advantage of the input constraints of values being in the range `[1, n]` and the array being modifiable.
+The solution is linear runtime `O(n)` and constant space `O(1)`. This solution works by using an inputted data structure as a disjoint set. Each value of `nums` maps to its index by the function `def idx(num): num - 1` . An example mapping is the value `9` to the index `8`. This direct mapping takes advantage of the input constraints of values being in the range `[1, n]` and the array being modifiable.
 
 Mapping allows you to store information for each number at the index returned by this function. If we multiply the value at this mapped index by `-1`, we can keep a boolean record on whether or not a certain number has been seen. Once we have a record of what has been seen by all previous elements, we can easily know when we reach a duplicate in iteration.
 

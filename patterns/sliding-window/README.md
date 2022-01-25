@@ -14,9 +14,47 @@ The sliding window pattern is used to perform a specific query on a sub-array of
 * Input is a linear data structure (linked list, array, or string)
 * Asked to find the longest/shortest substring, subarray, or a desired value
 
+## Example Problem: Max Consecutive Ones III
+
+_Original Problem:_ [_LeetCode #1004 (Medium)_](https://leetcode.com/problems/max-consecutive-ones-iii/)
+
+Given a binary array `nums` and an integer `k`, return the maximum number of consecutive `1`'s in the array if you can flip at most `k` `0`'s.
+
+### Starter Code
+
+```python
+def longest_ones(nums, k):
+    """Given array of integers nums and integer k, return the longest contiguous subarray of ones if you are able to change k values"""
+    pass
+
+# Test Case 1
+nums, k, ans = [1,1,1,0,0,0,1,1,1,1,0], 2, 6
+assert longest_ones(nums, k) == ans
+
+# Test Case 2
+nums, k, ans = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3, 10
+assert longest_ones(nums, k) == ans
+```
+
+### Solution
+
+```python
+def longest_ones(nums, k):
+    start, max_len, diff = 0, 0, 0
+    for end, num in enumerate(nums):
+        if num == 0:
+            diff += 1
+        while diff > k:
+            if nums[start] == 0:
+                diff -= 1
+            start += 1
+        max_len = max(max_len, end - start + 1)
+    return max_len
+```
+
 ## Example Problem: Minimum Size Subarray Sum
 
-_Original Problem:_ [_LeetCode #209_](https://leetcode.com/problems/minimum-size-subarray-sum/)__
+_Original Problem:_ [_LeetCode #209 (Medium)_](https://leetcode.com/problems/minimum-size-subarray-sum/)__
 
 Given an array of positive numbers and a positive number `target`, find the length of the smallest contiguous subarray whose sum is greater than or equal to `target`. Return `0` if no such subarray exists.
 
