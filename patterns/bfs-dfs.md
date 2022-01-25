@@ -1,4 +1,4 @@
-# BFS / DFS
+# DFS
 
 Classic problem: [https://leetcode.com/problems/number-of-islands/](https://leetcode.com/problems/number-of-islands/)
 
@@ -11,17 +11,17 @@ def num_islands(matrix):
     count = 0
     neighbors = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
-    def bfs(i, j):
+    def dfs(i, j):
         if i < m and i >= 0 and j < n and j >= 0 and matrix[i][j] == "1":
             matrix[i][j] = "0"
             for di, dj in neighbors:
-                bfs(i + di, j + dj)
+                dfs(i + di, j + dj)
 
     for i in range(m):
         for j in range(n):
             if matrix[i][j] == "1":
                 count += 1
-                bfs(i, j)
+                dfs(i, j)
     return count
 
 ```
