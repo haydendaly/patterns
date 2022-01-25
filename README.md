@@ -37,9 +37,13 @@ I plan on dedicating a chapter to each pattern where I will:
 
 The problems will come from programming problem sites (like [LeetCode](https://leetcode.com), [Project Euler](https://projecteuler.net), and [Kattis](https://open.kattis.com)) and my personal interview experiences. I'll also touch on some behavioral and resume advice briefly.
 
+### Alternatives
+
 If you're looking for more information on interview processes, check out the [Tech Interview Handbook](https://techinterviewhandbook.org).
 
 If you're looking for curated lists of problems by patterns, check out [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/).
+
+Another great resources is [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview) but it will cost you $15/month.
 
 ## Who is this for?
 
@@ -50,5 +54,3 @@ I expect you have familiarity with general algorithms and have taken the equival
 ## Who wrote this?
 
 [Hayden Daly](https://hcdaly.dev) did. I am a grad student at Cornell Tech and I've interned at companies including Stripe, Expo, and Disney. I aim to use writing this as a tool to improve my interview skills and prepare for new grad interviews.
-
-In my last round of programming interviews, I got offers from 75% of the companies I landed interview for and 40% of the 15 companies I applied to. I am to bring these numbers up through practice and would love to invite you to learn with me.
