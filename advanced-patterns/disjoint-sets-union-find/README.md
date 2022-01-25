@@ -24,23 +24,7 @@ There is only one repeated number in `nums`, return this repeated number. Your s
 
 #### Starter Function
 
-```python
-def find_duplicate(nums):
-    """Takes in an array nums, returns duplicate number"""
-    pass
-```
-
-#### Test Cases
-
-```python
-nums = [1, 3, 4, 2, 2]
-result = 2
-assert find_duplicates(nums) == result
-
-nums = [3, 1, 3, 4, 2]
-result = 3
-assert find_duplicates(nums) == result
-```
+{% embed url="https://github.com/haydendaly/patterns/blob/main/code/advanced-patterns/disjoint-sets-union-find/exercises/find-the-duplicate-number.py" %}
 
 ### Solution
 
