@@ -23,10 +23,10 @@
   * [Variations](patterns/topological-sort/variations.md)
   * [Harder Problems](patterns/topological-sort/harder-problems.md)
 * [BFS / DFS](patterns/bfs-dfs.md)
+* [Cyclic Sort](patterns/cyclic-sort.md)
 
 ## Advanced Patterns
 
-* [Cyclic Sort](advanced-patterns/cyclic-sort.md)
 * [Disjoint Sets / Union Find](advanced-patterns/disjoint-sets-union-find/README.md)
   * [Variations](advanced-patterns/disjoint-sets-union-find/variations.md)
   * [Harder Problems](advanced-patterns/disjoint-sets-union-find/harder-problems.md)
