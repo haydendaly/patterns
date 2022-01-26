@@ -7,13 +7,13 @@ description: >-
 
 ## What are fast and slow pointers?
 
-The Fast & Slow pointer approach, also known as the Hare & Tortoise algorithm, is a pointer algorithm that uses two pointers which move through the array (or sequence/Linked List) at different speeds. This approach is quite useful when dealing with cyclic Linked Lists or arrays.
+The fast and slow pointer approach, also known as the Hare and Tortoise algorithm, uses two pointers which move through an array (or sequence/Linked List) at different speeds. This approach is quite useful when dealing with cyclic Linked Lists or arrays.
 
-## Example Problem: Linked List Cycle
+## Find Linked List Cycle
 
-_Original Problem:_ [_LeetCode #141_](https://leetcode.com/problems/linked-list-cycle/)__
+_Original Problem:_ [_LeetCode #141 (Easy)_](https://leetcode.com/problems/linked-list-cycle/)
 
-Given the head of a Singly Linked __ List, write a function to determine if the Linked List has a cycle in it or not.
+Given the head of a singly linked list, write a function to determine if the linked list has a cycle in it or not.
 
 ### Starter Code
 

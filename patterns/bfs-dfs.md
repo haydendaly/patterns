@@ -1,6 +1,10 @@
 # DFS
 
-Classic problem: [https://leetcode.com/problems/number-of-islands/](https://leetcode.com/problems/number-of-islands/)
+## Number of Islands
+
+_Original Problem_: [_LeetCode #200 (Medium)_](https://leetcode.com/problems/number-of-islands/)__
+
+### Solution
 
 ```python
 def num_islands(matrix):

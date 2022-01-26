@@ -7,14 +7,14 @@ description: >-
 
 ## What is the sliding window pattern?
 
-The sliding window pattern is used to perform a specific query on a sub-array of a given array or linked list, such as finding the longest subarray containing all 1s. Sliding Windows start from the 1st element and keep shifting right by one element and adjust the length of the window according to the problem that you are solving. In some cases, the window size remains constant and in other cases the sizes grows or shrinks.
+The sliding window pattern is used to perform a query on a sub-array of a given array or linked list, such as finding the longest subarray containing all `1`'s. Sliding windows start from the `0`th element and keep shifting right, adjusting the length of the window according to the problem that you are solving. In some cases, the window size remains constant and in other cases the size grows or shrinks.
 
 ### Requirements
 
 * Input is a linear data structure (linked list, array, or string)
 * Asked to find the longest/shortest substring, subarray, or a desired value
 
-## Example Problem: Max Consecutive Ones III
+## Max Consecutive Ones III
 
 _Original Problem:_ [_LeetCode #1004 (Medium)_](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
@@ -28,11 +28,11 @@ def longest_ones(nums, k):
     pass
 
 # Test Case 1
-nums, k, ans = [1,1,1,0,0,0,1,1,1,1,0], 2, 6
+nums, k, ans = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], 2, 6
 assert longest_ones(nums, k) == ans
 
 # Test Case 2
-nums, k, ans = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3, 10
+nums, k, ans = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1], 3, 10
 assert longest_ones(nums, k) == ans
 ```
 
@@ -52,17 +52,17 @@ def longest_ones(nums, k):
     return max_len
 ```
 
-## Example Problem: Minimum Size Subarray Sum
+## Minimum Size Subarray Sum
 
 _Original Problem:_ [_LeetCode #209 (Medium)_](https://leetcode.com/problems/minimum-size-subarray-sum/)__
 
-Given an array of positive numbers and a positive number `target`, find the length of the smallest contiguous subarray whose sum is greater than or equal to `target`. Return `0` if no such subarray exists.
+Given an array of positive numbers and a positive number `target`, find the length of the smallest contiguous subarray whose sum is greater than or equal to `target`. Return `0` if no such sub-array exists.
 
 ### Starter Code
 
 ```python
 def smallest_subarray_with_target_sum(target, nums):
-    """Takes array of integers nums and integer target, returns smallest subarray with sum equivalent to target"""
+    """Takes array of integers nums and integer target, returns smallest sub-array with sum equivalent to target"""
     pass
     
 # Test Case 1

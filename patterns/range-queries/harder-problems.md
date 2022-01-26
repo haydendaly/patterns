@@ -1,25 +1,31 @@
-# Harder Problems
+# Challenge Problems
 
-## Example Problem: Minimum Sub-matrix Sum
+## Minimum Sub-matrix Sum
 
 Given an `m * n` matrix of integers, find the minimum sum sub-matrix of size `k * l`.
 
 ### Starter Code
 
-
+```python
+def find_min_sum_submatrix(grid, k, l):
+    """Takes integer matrix, returns position and sum of the sub-matrix of size k * l with minimum sum"""
+    pass
+```
 
 ### Solution
 
 ```python
 def find_min_sum_submatrix(grid, k, l):
+    if not grid or not grid[0]:
+        return -1, -1, 0
     # Create variables for size of grid
     m, n = len(grid), len(grid[0])
 
     # Transform to prefix grid
     for i in range(1, m):
-        grid[0][i] = grid[0][i - 1] + grid[0][i]
+        grid[i][0] = grid[i - 1][0] + grid[i][0]
     for j in range(1, n):
-        grid[j][0] = grid[j - 1][0] + grid[j][0]
+        grid[0][j] = grid[0][j - 1] + grid[0][j]
     for i in range(1, m):
         for j in range(1, n):
             grid[i][j] = grid[i - 1][j] + grid[i][j - 1] - grid[i - 1][j - 1] + grid[i][j]

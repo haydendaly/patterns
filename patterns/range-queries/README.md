@@ -14,9 +14,9 @@ In this chapter, we are going to focus on data structures that allow us to compl
 
 ### Data Structures
 
-Prefix sum
+Explain prefix sums here with diagrams.
 
-## Example Problem: Range Sum Query
+## Range Sum Query
 
 _Original Problem:_ [_LeetCode #303 (Easy)_](https://leetcode.com/problems/range-sum-query-immutable/)
 
