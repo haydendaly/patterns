@@ -62,7 +62,7 @@ vertices, edges = 7, [[6, 4], [6, 2], [5, 3], [5, 4], [3, 0], [3, 1], [3, 2], [4
 possible_ans = [5, 6, 3, 4, 0, 2, 1]
 ```
 
-## Example Problem: Course Schedule
+## Course Schedule
 
 _Original Problem:_ [_LeetCode #207_](https://leetcode.com/problems/course-schedule/)__
 

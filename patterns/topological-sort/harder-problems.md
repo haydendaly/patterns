@@ -1,6 +1,6 @@
 # Harder Problems
 
-## Example Problem: Alien Dictionary
+## Alien Dictionary
 
 _Original Problem:_ [_LeetCode #269 (Hard)_](https://leetcode.com/problems/alien-dictionary/)__
 

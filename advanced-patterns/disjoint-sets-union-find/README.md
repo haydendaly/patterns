@@ -19,7 +19,7 @@ William Fiset: Union Find Introduction
 
 If you have a set of N elements partitioned into further subsets, and you have to keep track of the connectivity of each element in a particular subset or connectivity of subsets with each other. You can manage connectivity/mappings easily with disjoint sets and the union find operation.
 
-## Example Problem: Find the Duplicate Number
+## Find the Duplicate Number
 
 _Original Problem:_ [_LeetCode #287 (Medium)_](https://leetcode.com/problems/find-the-duplicate-number/)
 

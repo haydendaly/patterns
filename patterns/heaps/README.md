@@ -2,7 +2,7 @@
 
 ## Why use heaps?
 
-## Example Problem: Kth Largest Element in an Array
+## Kth Largest Element in an Array
 
 _Original Problem:_[ _LeetCode #215 (Medium)_](https://leetcode.com/problems/kth-largest-element-in-an-array/)__
 

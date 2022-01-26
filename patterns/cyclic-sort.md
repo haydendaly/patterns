@@ -8,7 +8,7 @@ description: https://github.com/haydendaly/experiments/blob/main/patterns/cyclic
 
 The cyclic sort pattern describes an interesting approach to deal with problems involving arrays containing numbers in a given range.
 
-## Example Problem: Missing Number
+## Missing Number
 
 _Original Problem:_ [_LeetCode #268_](https://leetcode.com/problems/missing-number/)__
 
